@@ -1,0 +1,25 @@
+{
+  "name": "custom-resource",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=12"
+  },
+  "description": "cfn custom resources for video on demand",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage lib/**/*.spec.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.914.0",
+    "jest": "^27.0.1"
+  },
+  "private": true,
+  "author": {
+    "name": "aws-solutions-builder"
+  },
+  "license": "Apache-2.0"
+}

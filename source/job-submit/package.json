@@ -1,0 +1,22 @@
+{
+  "name": "job-submit",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=12"
+  },
+  "description": "lamda function to be called when video is uploaded to s3",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --collect-coverage lib/*.spec.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "aws-sdk": "^2.914.0",
+    "jest": "^27.0.1"
+  }
+}
